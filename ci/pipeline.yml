@@ -2,8 +2,9 @@ resources:
 - name: flight-school
   type: git
   source:
-    uri: https://github.com/(your username)/flight-school
+    uri: https://github.com/ydubitskyi/flight-school
     branch: master
+
 - name: staging-app
   type: cf
   source:
