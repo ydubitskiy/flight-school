@@ -2,8 +2,8 @@
 
 set -e -x
 
-#pushd flight-school
-pushd ${bamboo.build.working.directory}
+pushd .
+#pushd ${bamboo.build.working.directory}
   bundle install
   bundle exec rspec
 popd
